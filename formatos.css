@@ -2,3 +2,17 @@
     width: 50px;
     height: 50px;
 }
+nav {
+    background-color:thistle;
+}
+main{
+    background-color: thistle;
+    text-align: center;
+    font-weight: bold;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
