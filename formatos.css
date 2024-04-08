@@ -8,11 +8,17 @@ nav {
 main{
     background-color: thistle;
     text-align: center;
-    font-weight: bold;
 }
 footer{
     background-color: black;
     text-align: center;
     color: white;
+}
+h1{
+    font-size: 30px;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
+    font-size: 16px;
 }
