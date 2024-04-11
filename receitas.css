@@ -1,30 +1,52 @@
 .container_receitas {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
 .painel_receita {
-    width: 29%;
-    margin: 20px;
+    width: calc(33.33% - 20px);
+    margin: 10px;
     padding: 10px;
-    background-color: lightpink;
+    background-color: lavender;
+    box-sizing: border-box;
 }
+
 .painel_receita img {
     max-width: 100%;
     height: auto;
 }
+
 .painel_receita h2 {
     font-size: 25px;
     margin-bottom: 10px;
-    text-align: center
+    text-align: center;
 }
+
 .painel_receita h3 {
     font-size: 18px;
     margin-top: 20px;
-    text-align: center
+    text-align: center;
 }
+
 .painel_receita ul {
     margin-top: 10px;
     margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.painel_receita p {
+    font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    .painel_receita {
+        width: calc(50% - 20px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .painel_receita {
+        width: calc(100% - 20px);
+    }
 }
