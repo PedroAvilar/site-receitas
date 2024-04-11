@@ -19,48 +19,80 @@
         <!--Barra de navegação-->
         MENU
     </nav>
-    <main class="container mt-4">
+    <main class="container-fluid">
         <!--Conteúdo da página-->
         <h1>Efetue seu cadastro</h1>
-        <form action="https://formsubmit.co/pedrowa.avilar@gmail.com" method="POST">
-            <div class="mb-3">
-                <label for="nome" class="form-label">Nome:</label>
-                <input type="text" class="form-control" name="nome" id="nome" required>
+        <div class="row">
+            <div class="col-md-12">
+                <form action="https://formsubmit.co/pedrowa.avilar@gmail.com" method="POST">
+                    <div class="row mb-3">
+                        <div class="col-md-2">
+                            <label for="nome" class="form-label">Nome:</label>
+                        </div>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" name="nome" id="nome" required>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-2">
+                            <label for="email" class="form-label">E-mail:</label>
+                        </div>
+                        <div class="col-md-4">
+                            <input type="email" class="form-control" name="email" id="email" required>
+                        </div>
+                    </div>
+                    <div class="row mb-3">    
+                        <div class="col-md-2">
+                            <label for="cep" class="form-label">CEP:</label>
+                        </div>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" name="cep" id="cep" pattern="\d{5}-\d{3}" placeholder="00000-000" required>
+                        </div>
+                    </div>
+                    <div class="row mb-3">   
+                        <div class="col-md-2">
+                            <label for="rua" class="form-label">Rua:</label>
+                        </div>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" name="rua" id="rua" required>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-2">
+                            <label for="numero" class="form-label">Nº:</label>
+                        </div>
+                        <div class="col-md-2">
+                            <input type="number" class="form-control" name="numero" id="numero" required>
+                        </div>
+                        <div class="col-md-2">
+                            <label for="complemento" class="form-label">Complemento:</label>
+                        </div>
+                        <div class="col-md-2">
+                            <input type="text" class="form-control" name="complemento" id="complemento" required>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-2">
+                            <label for="cidade" class="form-label">Cidade:</label>
+                        </div>
+                        <div class="col-md-2">
+                            <input type="text" class="form-control" name="cidade" id="cidade" required>
+                        </div>    
+                        <div class="col-md-2">
+                            <label for="uf" class="form-label">UF:</label>
+                        </div>
+                        <div class="col-md-2">
+                            <input type="text" class="form-control" name="uf" id="uf" required>
+                        </div>
+                        <div class="col-md-2">
+                            <button type="submit" class="btn btn-primary">Cadastrar</button>
+                        </div>
+                    </div>
+                </form>
             </div>
-            <div class="mb-3">
-                <label for="email" class="form-label">E-mail:</label>
-                <input type="email" class="form-control" name="email" id="email" required>
-            </div>
-            <div class="mb-3">
-                <label for="cep" class="form-label">CEP:</label>
-                <input type="text" class="form-control" name="cep" id="cep" 
-                pattern="\d{5}-\d{3}" placeholder="00000-000" required>
-            </div>
-            <div class="mb-3">
-                <label for="rua" class="form-label">Rua:</label>
-                <input type="text" class="form-control" name="rua" id="rua" required>
-            </div>
-            <div class="mb-3">
-                <label for="numero" class="form-label">Nº:</label>
-                <input type="number" class="form-control" name="numero" id="numero" required>
-            </div>
-            <div class="mb-3">   
-                <label for="complemento" class="form-label">Complemento:</label>
-                <input type="text" class="form-control" name="complemento" id="complemento" required>
-            </div>
-            <div class="mb-3">
-                <label for="cidade" class="form-label">Cidade:</label>
-                <input type="text" class="form-control" name="cidade" id="cidade" required>
-            </div>
-            <div class="mb-3">    
-                <label for="uf" class="form-label">UF:</label>
-                <input type="text" class="form-control" name="uf" id="uf" required>
-            </div>
-            <button type="submit" class="btn btn-primary">Cadastrar</button>
-        </form>
+        </div>
     </main>
     <footer>
-        <!--Rodapé-->
         <p>&copy Pedro Avilar 2024</p>
     </footer>
 </body>
