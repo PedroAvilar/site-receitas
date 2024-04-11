@@ -12,6 +12,7 @@
 }
 nav {
     background-color:thistle;
+    padding: 10px;
 }
 main{
     flex: 1;
