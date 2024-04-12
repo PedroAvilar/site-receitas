@@ -11,10 +11,12 @@
     align-items: center;
 }
 header {
+    height: 60px;
     background-color:thistle;
     padding: 10px;
 }
 main{
+    height: calc(100vh - 100px);
     flex: 1;
     background-color: thistle;
     display: flex;
@@ -23,9 +25,13 @@ main{
     overflow-y: auto;
 }
 footer{
+    display: flex;
+    height: 25px;
     background-color: black;
     text-align: center;
     color: white;
+    align-items: center;
+    justify-content: center;
 }
 h1{
     font-size: 30px;
