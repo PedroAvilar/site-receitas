@@ -3,7 +3,7 @@
     height: 50px;
     margin-right: 10px;
 }
-.conteúdo {
+.conteudo {
     text-align: center;
 }
 .logo_nome {
@@ -13,7 +13,6 @@
 header {
     height: 60px;
     background-color:thistle;
-    padding: 10px;
 }
 main{
     height: calc(100vh - 100px);
